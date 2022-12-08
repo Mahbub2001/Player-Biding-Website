@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 30.125rem;
+    background-color: black;
+}
+.half-width h1{
+    margin-top: 10rem;
+}
+.header-img{
+    margin-bottom: -4rem;
+}
+.card-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.buttons{
+    padding: 0.5rem 5rem;
+}
+#buttons1{
+    padding: 0.5rem 5rem;
+}
+#input-sec1,#input-sec2,#input-sec3{
+    border: 1px solid white;
+    width: 8rem;
+    color: white;
+}
+.underLine{
+    width: 100px;
+    margin-left: 6rem;
+}
+#buttons2{
+    padding: 0.5rem 2rem;
+}
+li + li {
+    margin-top: 20px;
+}
+.aside2{
+    height: 300px;
+}
+.aside2 p+p{
+    margin-top: 15px;
+}
+footer
+{
+    margin-top: 300px;
+    height: 300px;
+}
+footer p{
+    margin-top: 10%;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1280px) {
+
+    .header-div{
+        flex-direction: column;
+    }
+    .header-picDiv1{
+        width: 25%;
+        margin-bottom: -10rem;
+        padding-right: 10%;
+        margin-top: -1rem;
+    }
+    .header-picDiv2{
+        width: 100%;
+        margin-top: -2rem;
+        padding-left: 35%;
+    }
+    .header-div{
+        flex-direction: column;
+    }
+    .card-div{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 1rem;
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;    
+    }
+    footer{
+        margin-top: 300px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .header-div{
+        flex-direction: column;
+    }
+    .header-picDiv1{
+        width: 30%;
+        margin-bottom: -10rem;
+        padding-right: 10%;
+    }
+    .header-picDiv2{
+        width: 100%;
+        margin-top: -2rem;
+        padding-left: 35%;
+    }
+    .header-div{
+        flex-direction: column;
+    }
+    .card-div{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 1rem;
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;    
+    }
+    footer{
+        margin-top: 300px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .header-div{
+        flex-direction: column;
+    }
+    .header-pic1{
+        width: 40%;
+        margin-bottom: -10rem;
+    }
+    .header-picDiv2{
+        width: 50%;
+        margin-top: -2rem;
+    }
+    .card-div{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 1rem;
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;    
+    }
+    footer{
+        margin-top: 300px;
+    }
+
+}
+  
+
